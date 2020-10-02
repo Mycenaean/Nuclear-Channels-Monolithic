@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Nuclear.Channels</RootNamespace>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>3.1.5</Version>
+    <PackageId>Nuclear.Channels</PackageId>
+    <Authors>Nikola Milinkovic</Authors>
+    <Product>Nuclear.Channels</Product>
+    <Copyright>Nikola Milinkovic</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Mycenaean/Nuclear-Channels-Monolithic</RepositoryUrl>
+    <PackageReleaseNotes>Added StandardJsonMessage attribute with which you can decorate class or ChannelMethod and the response wont be in a form of ChannelMessage but as a standard json. Added capability for faster Channel lookups with RegisterChannels method of IChannelServer.  Fixed authentication case. Reduced the number of nuget packages.</PackageReleaseNotes>
+    <Description>Lightweight Web API Framework using Custom Attributes and Http Listener</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Mycenaean\Source\Repos\Nuclear-Channels-Monolithic\src\Nuclear.Channels.Monolithic.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Nuclear.Channels.Monolithic\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
