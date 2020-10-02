@@ -4,11 +4,11 @@ Lightweight Web API Framework using Custom Attributes and Http Listener. This is
 
 Class Library that contains all the logic neccessary for the initialization of channel endpoints. To install it with Package Manager:
 ```
-Install-Package Nuclear.Channels -Version 3.1.4
+Install-Package Nuclear.Channels -Version 3.1.5
 ```
 To install it with .NET CLI:
 ```
-dotnet add package Nuclear.Channels --version 3.1.4
+dotnet add package Nuclear.Channels --version 3.1.5
 ```
 
 
