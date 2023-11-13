@@ -316,7 +316,7 @@ You can test and initialize Channels in both Console Apps and Web Apps. To initi
 IChannelServer service will start the hosting of the channels. In Web apps just apply same 3 lines of code in Program.cs.
 
 # Authors
- Nikola Milinkovic - *initial work and maintainer* - [Mycenaean](https://github.com/Mycenaean)
+ Nikola M - *initial work and maintainer* - [Mycenaean](https://github.com/Mycenaean)
 
 # License
  Nuclear.Channels are MIT Licensed.
